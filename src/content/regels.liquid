@@ -4,37 +4,41 @@ pagination:
     size: 3
 ---
 <ol>
-  {%- for rule in pagination.items %}
+  {% for rule in pagination.items %}
     <li>
       <a href="#{{ rule.title | slugify }}">{{ rule.title }}</a>
       {% if rule.items %}
         <ol>
           {% for item in rule.items %}
             <li>
-              <a href="#{{ rule.title | slugify }}">{{ item.title }}</a>
+              <a href="#{{ item.title | slugify }}">{{ item.title }}</a>
             </li>
           {% endfor %}
         </ol>
       {% endif %}
     </li>
-  {%- endfor %}
+  {% endfor %}
 </ol>
 
 <div>
-  {%- for rule in pagination.items %}
-    <h2 id="{{ rule.title | slugify }}">{{ rule.title }}</h2>
+  {% for rule in pagination.items %}
+    <h2 id="{{ rule.title | slugify }}">
+      {{ rule.title }}
+      <span aria-hidden="true"><a href="#{{ rule.title | slugify }}">#</a></span>
+    </h2>
     {% if rule.description %}
       <p>{{ rule.description }}</p>
     {% endif %}
     {% if rule.items %}
       {% for item in rule.items %}
-        <h3 id="{{ rule.title | slugify }}'">
+        <h3 id="{{ item.title | slugify }}">
           {{ item.title }}
+          <span aria-hidden="true"><a href="#{{ item.title | slugify }}">#</a></span>
         </h3>
         {% if item.description %}
           <p>{{ item.description }}</p>
         {% endif %}
       {% endfor %}
     {% endif %}
-  {%- endfor %}
+  {% endfor %}
 </div>

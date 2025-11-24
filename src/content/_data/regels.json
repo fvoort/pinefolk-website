@@ -12,7 +12,7 @@
         "description": "Geen racisme, seksisme, homofobie, antisemitisme, islamfobie of haat op welke manier dan ook."
       },
       {
-        "title": "Staff & regels",
+        "title": "Staff en regels",
         "description": "Luister altijd naar instructies van staff. Word je ergens op aangesproken? Stop er dan meteen mee. Meld alleen echte problemen, geen persoonlijke vete."
       },
       {
@@ -20,11 +20,11 @@
         "description": "Op zowel de Minecraft-server als in de Discord-server spreken en schrijven we alleen Nederlands, Fries, Limburgs of (af en toe) Engels."
       },
       {
-        "title": "Privacy & veiligheid",
+        "title": "Privacy en veiligheid",
         "description": "Deel geen adressen, telefoonnummers of andere privégegevens van jezelf of anderen. Dreigen om iemands privégegevens te delen is ook verboden."
       },
       {
-        "title": "Spam & promotie",
+        "title": "Spam en promotie",
         "description": "Vermijd floods, capslock-spam en herhaaldelijk dezelfde tekst sturen. Geen promotie van andere servers, winkels of communities."
       },
       {
@@ -38,15 +38,15 @@
     "description": "Regels voor de Minecraft-server",
     "items": [
       {
-        "title": "Grieffen & stelen",
+        "title": "Grieffen en stelen",
         "description": "Grieffen (andermans gebouwen kapotmaken) en stelen is niet toegestaan. Zelfs iets “even lenen” zonder toestemming van een ander is niet oké."
       },
       {
-        "title": "Killen & PvP",
+        "title": "Killen en PvP",
         "description": "Je mag elkaar niet killen, tenzij je hebt afgesproken met een ander te PvP’en. Dit geldt ook voor de dieren van een ander."
       },
       {
-        "title": "Cheats, hacks & exploits",
+        "title": "Cheats, hacks en exploits",
         "description": "Geen hacked clients, X-ray, dupes, autoclickers, macro’s of andere oneerlijke voordelen. Wanneer je een bug of exploit vindt, rapporteer je het in plaats van het te gebruiken."
       },
       {
@@ -58,7 +58,7 @@
         "description": "Maak geen redstone- of andere constructies die expres lag veroorzaken. Redstone moet efficiënt zijn en chunkloaders zijn verboden, tenzij je toestemming hebt."
       },
       {
-        "title": "Scams & eerlijkheid",
+        "title": "Scams en eerlijkheid",
         "description": "Ruil eerlijk: wat je met elkaar afspreekt, gebeurt ook. Als iemand doodgaat en de loot ligt er nog, dan geef je het netjes terug."
       }
     ]
@@ -69,7 +69,7 @@
     "items": [
       {
         "title": "Kanalen",
-        "description": "Gebruik de juiste kanalen. Wil je iets posten over je hond? Dat mag, maar het hoort niet thuis in een kanaal over redstone."
+        "description": "Gebruik de juiste kanalen. Wil je bijvoorbeeld iets posten over je hond? Dat mag, maar het hoort niet thuis in een kanaal over redstone."
       },
       {
         "title": "Profiel",
