@@ -1,0 +1,20 @@
+/* 
+  Global styles 
+
+  Low-specificity, global styles that apply to the whole 
+  project: https://cube.fyi/css.html
+*/
+body {
+  background: var(--color-surface-page);
+  color: var(--color-text-base);
+  font-size: var(--size-step-0);
+  font-family: var(--font-base);
+  line-height: var(--leading-standard);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-text-heading);
+}
