@@ -6,12 +6,12 @@ pagination:
 <ol>
   {%- for rule in pagination.items %}
     <li>
-      <a href='#{{ rule.title | slugify }}'>{{ rule.title }}</a>
+      <a href="#{{ rule.title | slugify }}">{{ rule.title }}</a>
       {% if rule.items %}
         <ol>
           {% for item in rule.items %}
             <li>
-              <a href='#{{ rule.title | slugify }}'>{{ item.title }}</a>
+              <a href="#{{ rule.title | slugify }}">{{ item.title }}</a>
             </li>
           {% endfor %}
         </ol>
@@ -22,7 +22,7 @@ pagination:
 
 <div>
   {%- for rule in pagination.items %}
-    <h2 id='{{ rule.title | slugify }}'>{{ rule.title }}</h2>
+    <h2 id="{{ rule.title | slugify }}">{{ rule.title }}</h2>
     {% if rule.description %}
       <p>{{ rule.description }}</p>
     {% endif %}
