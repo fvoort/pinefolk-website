@@ -7,11 +7,11 @@
       "items": [
         {
           "name": "Page",
-          "value": "Light"
+          "value": "White"
         },
         {
-          "name": "Raised",
-          "value": "Grey 100"
+          "name": "Action",
+          "value": "Grey 500"
         }
       ]
     },
@@ -19,12 +19,52 @@
       "name": "Text",
       "items": [
         {
-          "name": "Heading",
-          "value": "Primary"
+          "name": "On Dark",
+          "items": [
+            {
+              "name": "Primary",
+              "value": "White"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Border",
+      "items": [
+        {
+          "name": "Light",
+          "value": "White 400"
         },
         {
-          "name": "Base",
-          "value": "Dark"
+          "name": "Dark",
+          "value": "Black 200"
+        },
+        {
+          "name": "Action",
+          "items": [
+            {
+              "name": "Default",
+              "value": "Black"
+            },
+            {
+              "name": "Hover",
+              "value": "White"
+            },
+            {
+              "name": "Focus",
+              "value": "Green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shadow",
+      "items": [
+        {
+          "name": "Text",
+          "value": "Black 500"
         }
       ]
     }

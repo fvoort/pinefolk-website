@@ -1,5 +1,4 @@
 :root {
-  --gutter: var(--space-s-l);
   --transition-base: 250ms ease;
   --transition-movement: 200ms linear;
   --transition-fade: 300ms ease;

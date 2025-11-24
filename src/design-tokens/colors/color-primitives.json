@@ -3,41 +3,37 @@
   "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
   "items": [
     {
-      "name": "Dark",
-      "value": "#030303"
-    },
-    {
-      "name": "Light",
+      "name": "White",
       "value": "#ffffff"
     },
     {
-      "name": "Primary",
-      "value": "#02394A"
+      "name": "Black",
+      "value": "#000000"
     },
     {
-      "name": "Grey",
+      "name": "White 400",
+      "value": "rgb(255 255 255 / 40%)"
+    },
+    {
+      "name": "Black",
       "items": [
         {
-          "name": "100",
-          "value": "#F1F1F1"
-        },
-        {
-          "name": "300",
-          "value": "#B8B8B8"
+          "name": "200",
+          "value": "rgb(0 0 0 / 20%)"
         },
         {
           "name": "500",
-          "value": "#808080"
-        },
-        {
-          "name": "700",
-          "value": "#474747"
-        },
-        {
-          "name": "900",
-          "value": "#0E0E0E"
+          "value": "rgb(0 0 0 / 50%)"
         }
       ]
+    },
+    {
+      "name": "Grey 500",
+      "value": "#757575"
+    },
+    {
+      "name": "Green",
+      "value": "#3c8527"
     }
   ]
 }

@@ -2,18 +2,13 @@ const plugin = require('tailwindcss/plugin');
 const postcss = require('postcss');
 const postcssJs = require('postcss-js');
 
-const clampGenerator = require('./src/css-utils/clamp-generator.js');
 const tokensToTailwind = require('./src/css-utils/tokens-to-tailwind.js');
 
 // Raw design tokens
 const colorPrimitiveTokens = require('./src/design-tokens/colors/color-primitives.json');
 const colorSemanticTokens = require('./src/design-tokens/colors/color-semantics.json');
 const fontTokens = require('./src/design-tokens/fonts.json');
-const spacingTokens = require('./src/design-tokens/spacing.json');
-const textSizeTokens = require('./src/design-tokens/text-sizes.json');
 const textLeadingTokens = require('./src/design-tokens/text-leading.json');
-const textWeightTokens = require('./src/design-tokens/text-weights.json');
-const viewportTokens = require('./src/design-tokens/viewports.json');
 
 // Merge color tokens
 const allColorTokens = {
@@ -23,10 +18,7 @@ const allColorTokens = {
 // Process design tokens
 const colors = tokensToTailwind(allColorTokens.items);
 const fontFamily = tokensToTailwind(fontTokens.items);
-const fontWeight = tokensToTailwind(textWeightTokens.items);
-const fontSize = tokensToTailwind(clampGenerator(textSizeTokens.items));
 const lineHeight = tokensToTailwind(textLeadingTokens.items);
-const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 module.exports = {
   content: ['./src/**/*.{html,js,jsx,mdx,njk,twig,vue}'],
@@ -34,17 +26,9 @@ module.exports = {
   safelist: [],
   presets: [],
   theme: {
-    screens: {
-      sm: `${viewportTokens.min}px`,
-      md: `${viewportTokens.mid}px`,
-      lg: `${viewportTokens.max}px`
-    },
     colors,
-    spacing,
-    fontSize,
     lineHeight,
     fontFamily,
-    fontWeight,
     backgroundColor: ({theme}) => theme('colors'),
     textColor: ({theme}) => theme('colors'),
     margin: ({theme}) => ({
@@ -97,8 +81,6 @@ module.exports = {
 
       const groups = [
         {key: 'colors', prefix: 'color'},
-        {key: 'spacing', prefix: 'space'},
-        {key: 'fontSize', prefix: 'size'},
         {key: 'lineHeight', prefix: 'leading'},
         {key: 'fontFamily', prefix: 'font'},
         {key: 'fontWeight', prefix: 'font'}
@@ -118,32 +100,6 @@ module.exports = {
 
       addComponents({
         ':root': postcssJs.objectify(postcss.parse(result))
-      });
-    }),
-
-    // Generates custom utility classes
-    plugin(function ({addUtilities, config}) {
-      const currentConfig = config();
-      const customUtilities = [
-        {key: 'spacing', prefix: 'flow-space', property: '--flow-space'},
-        {key: 'spacing', prefix: 'region-space', property: '--region-space'},
-        {key: 'spacing', prefix: 'gutter', property: '--gutter'}
-      ];
-
-      customUtilities.forEach(({key, prefix, property}) => {
-        const group = currentConfig.theme[key];
-
-        if (!group) {
-          return;
-        }
-
-        Object.keys(group).forEach(key => {
-          addUtilities({
-            [`.${prefix}-${key}`]: postcssJs.objectify(
-              postcss.parse(`${property}: ${group[key]}`)
-            )
-          });
-        });
       });
     })
   ]

@@ -1,8 +1,9 @@
 {
   "scripts": {
     "css": "npx postcss src/css/*.css --dir dist/css",
+    "fonts": "mkdir -p dist/fonts && cp -r src/fonts/* dist/fonts/",
     "clean": "rm -r -f dist && mkdir dist",
-    "start": "npm run clean && cp src/index.html dist/index.html && concurrently 'npx serve dist' 'npm run css -- --watch'"
+    "start": "npm run clean && cp src/index.html dist/index.html && concurrently 'npx serve dist' 'npm run css -- --watch' 'npm run fonts'"
   },
   "keywords": [],
   "author": "",
