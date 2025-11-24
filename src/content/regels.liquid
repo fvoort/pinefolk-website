@@ -1,0 +1,40 @@
+---
+pagination:
+    data: regels
+    size: 3
+---
+<ol>
+  {%- for rule in pagination.items %}
+    <li>
+      <a href='#{{ rule.title | slugify }}'>{{ rule.title }}</a>
+      {% if rule.items %}
+        <ol>
+          {% for item in rule.items %}
+            <li>
+              <a href='#{{ rule.title | slugify }}'>{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+    </li>
+  {%- endfor %}
+</ol>
+
+<div>
+  {%- for rule in pagination.items %}
+    <h2 id='{{ rule.title | slugify }}'>{{ rule.title }}</h2>
+    {% if rule.description %}
+      <p>{{ rule.description }}</p>
+    {% endif %}
+    {% if rule.items %}
+      {% for item in rule.items %}
+        <h3 id="{{ rule.title | slugify }}'">
+          {{ item.title }}
+        </h3>
+        {% if item.description %}
+          <p>{{ item.description }}</p>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {%- endfor %}
+</div>
