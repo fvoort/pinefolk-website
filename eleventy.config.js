@@ -1,5 +1,9 @@
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({"src/fonts": "fonts"});
+  eleventyConfig.addPassthroughCopy({
+    "src/fonts": "fonts",
+    "src/img": "img",
+    "src/downloads": "downloads"
+  });
 }
 
 export const config = {
