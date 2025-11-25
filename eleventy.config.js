@@ -1,6 +1,11 @@
 export default function (eleventyConfig) {
-  eleventyConfig.setInputDirectory('src/content');
-  eleventyConfig.setOutputDirectory('dist');
-
-  eleventyConfig.addPassthroughCopy({'src/fonts': 'fonts'});
+  eleventyConfig.addPassthroughCopy({"src/fonts": "fonts"});
 }
+
+export const config = {
+  dir: {
+    input: "src/content",
+    includes: "../_includes",
+    output: "dist"
+  }
+};
