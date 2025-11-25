@@ -5,7 +5,16 @@
   project: https://cube.fyi/css.html
 */
 body {
-  background: var(--color-surface-page);
+  background: url("/img/background.png") center top / 64px auto;
   font-family: var(--font-base);
   line-height: var(--leading-standard);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-contrast);
 }

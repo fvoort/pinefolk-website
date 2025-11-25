@@ -1,9 +1,9 @@
 ---
 title: Regels
-layout: base.liquid
+layout: docs.liquid
 ---
 
-## Algemene regels
+## Algemene Regels
 
 Regels voor zowel de Minecraft-server als de Discord-server
 
@@ -15,19 +15,19 @@ Behandel iedereen vriendelijk en met respect. Niet pesten, een ander uitschelden
 
 Geen racisme, seksisme, homofobie, antisemitisme, islamfobie of haat op welke manier dan ook.
 
-### Staff en regels
+### Staff en Regels
 
 Luister altijd naar instructies van staff. Word je ergens op aangesproken? Stop er dan meteen mee. Meld alleen echte problemen, geen persoonlijke vete.
 
-### Toegestane talen
+### Toegestane Talen
 
 Op zowel de Minecraft-server als in de Discord-server spreken en schrijven we alleen Nederlands, Fries, Limburgs of (af en toe) Engels.
 
-### Privacy en veiligheid
+### Privacy en Veiligheid
 
 Deel geen adressen, telefoonnummers of andere privégegevens van jezelf of anderen. Dreigen om iemands privégegevens te delen is ook verboden.
 
-### Spam en promotie
+### Spam en Promotie
 
 Vermijd floods, capslock-spam en herhaaldelijk dezelfde tekst sturen. Geen promotie van andere servers, winkels of communities.
 
@@ -35,11 +35,11 @@ Vermijd floods, capslock-spam en herhaaldelijk dezelfde tekst sturen. Geen promo
 
 Geen earrape, soundboards, of schreeuwen in voice-chat op zowel de Minecraft-server als in de Discord-server.
 
-## Minecraft regels
+## Minecraft Regels
 
 Regels voor de Minecraft-server
 
-### Grieffen en stelen
+### Grieffen en Stelen
 
 Grieffen (andermans gebouwen kapotmaken) en stelen is niet toegestaan. Zelfs iets “even lenen” zonder toestemming van een ander is niet oké.
 
@@ -47,7 +47,7 @@ Grieffen (andermans gebouwen kapotmaken) en stelen is niet toegestaan. Zelfs iet
 
 Je mag elkaar niet killen, tenzij je hebt afgesproken met een ander te PvP’en. Dit geldt ook voor de dieren van een ander.
 
-### Cheats, hacks en exploits
+### Cheats, Hacks en Exploits
 
 Geen hacked clients, X-ray, dupes, autoclickers, macro’s of andere oneerlijke voordelen. Wanneer je een bug of exploit vindt, rapporteer je het in plaats van het te gebruiken.
 
@@ -59,11 +59,11 @@ Vermijd lelijke torentjes, 1x1-palen en rommelige bouwwerken. Bouw je base niet 
 
 Maak geen redstone- of andere constructies die expres lag veroorzaken. Redstone moet efficiënt zijn en chunkloaders zijn verboden, tenzij je toestemming hebt.
 
-### Scams en eerlijkheid
+### Scams en Eerlijkheid
 
 dan geef je het netjes terug.
 
-## Discord regels
+## Discord Regels
 
 Regels voor de Discord-server
 

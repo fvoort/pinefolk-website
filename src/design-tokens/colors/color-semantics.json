@@ -6,8 +6,8 @@
       "name": "Surface",
       "items": [
         {
-          "name": "Page",
-          "value": "White"
+          "name": "Raised",
+          "value": "Grey 200"
         },
         {
           "name": "Action",
@@ -34,11 +34,33 @@
       "items": [
         {
           "name": "Light",
-          "value": "White 400"
+          "value": "White"
         },
         {
           "name": "Dark",
-          "value": "Black 200"
+          "value": "Black 550"
+        },
+        {
+          "name": "Action",
+          "items": [
+            {
+              "name": "Light",
+              "value": "White 400"
+            },
+            {
+              "name": "Dark",
+              "value": "Black 200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outline",
+      "items": [
+        {
+          "name": "Default",
+          "value": "Black"
         },
         {
           "name": "Action",

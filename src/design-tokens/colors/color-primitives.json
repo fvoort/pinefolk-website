@@ -24,12 +24,25 @@
         {
           "name": "500",
           "value": "rgb(0 0 0 / 50%)"
+        },
+        {
+          "name": "550",
+          "value": "rgb(0 0 0 / 55%)"
         }
       ]
     },
     {
-      "name": "Grey 500",
-      "value": "#757575"
+      "name": "Grey",
+      "items": [
+        {
+          "name": "200",
+          "value": "#c6c6c6"
+        },
+        {
+          "name": "500",
+          "value": "#757575"
+        }
+      ]
     },
     {
       "name": "Green",

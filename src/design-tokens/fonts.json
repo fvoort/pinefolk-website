@@ -5,6 +5,11 @@
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
+      "value": ["Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"]
+    },
+    {
+      "name": "Contrast",
+      "description": "System fonts for headings and contrast.",
       "value": ["Mojangles", "sans-serif"]
     }
   ]

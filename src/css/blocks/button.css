@@ -4,19 +4,20 @@ button,
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  font-family: var(--font-contrast);
   line-height: var(--leading-flat);
   color: var(--color-text-on-dark-primary);
   background: var(--color-surface-action);
   text-shadow: 0.1em 0.1em var(--color-shadow-text);
   padding: 0.75em 1.5em;
-  border: 0.1em solid var(--color-border-action-default);
+  border: 0.1em solid var(--color-outline-action-default);
 }
 
 button::before,
 button::after,
 .button::before,
 .button::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -26,22 +27,22 @@ button::after,
 
 button::before,
 .button::before {
-  border-top: 0.1em solid var(--color-border-light);
-  border-left: 0.1em solid var(--color-border-light);
+  border-top: 0.1em solid var(--color-border-action-light);
+  border-left: 0.1em solid var(--color-border-action-light);
 }
 
 button::after,
 .button::after {
-  border-bottom: 0.2em solid var(--color-border-dark);
-  border-right: 0.1em solid var(--color-border-dark);
+  border-bottom: 0.2em solid var(--color-border-action-dark);
+  border-right: 0.1em solid var(--color-border-action-dark);
 }
 
 button:hover,
 .button:hover {
-  border-color: var(--color-border-action-hover);
+  border-color: var(--color-outline-action-hover);
 }
 
 button:focus,
 .button:focus {
-  outline: 0.1em solid var(--color-border-action-focus);
+  outline: 0.1em solid var(--color-outline-action-focus);
 }

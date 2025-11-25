@@ -1,6 +1,6 @@
 ---
 title: Minecraft en mods installeren
-layout: base.liquid
+layout: docs.liquid
 ---
 
 Pinefolk SMP is een vanilla server, maar [gebruikt wel een paar mods en aanpassingen](/over/#installatie) om de ervaring te verbeteren. De makkelijkste en snelste manier om mee te doen is door de [Modrinth App](https://modrinth.com/app) te downloaden en de [Pinefolk SMP modpack](https://modrinth.com/modpack/pinefolk) te installeren.

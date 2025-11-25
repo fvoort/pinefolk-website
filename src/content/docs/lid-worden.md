@@ -1,6 +1,6 @@
 ---
 title: Lid worden
-layout: base.liquid
+layout: docs.liquid
 ---
 
 ## Toegang krijgen tot de Discord-server
