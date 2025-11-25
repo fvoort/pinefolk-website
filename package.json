@@ -2,7 +2,8 @@
   "scripts": {
     "css": "npx postcss src/css/*.css --dir dist",
     "clean": "rm -r -f dist && mkdir dist",
-    "start": "npm run clean && concurrently 'npx @11ty/eleventy --serve' 'npm run css -- --watch'"
+    "start": "npm run clean && concurrently 'npx @11ty/eleventy --serve' 'npm run css -- --watch'",
+    "build": "concurrently 'npx @11ty/eleventy' 'npm run css'"
   },
   "keywords": [],
   "author": "",
