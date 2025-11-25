@@ -3,9 +3,15 @@ title: Regels
 layout: docs.liquid
 ---
 
-## Algemene Regels
+Op zowel de Minecraft-server als de Discord-server gelden een aantal regels om het voor iedereen leuk te houden. **De TL;DR is dit: wees aardig tegen elkaar en als je wordt gevraagd om ergens mee te stoppen, doe dat dan ook.**
 
-Regels voor zowel de Minecraft-server als de Discord-server
+Als je een regel verbreekt, word je gevraagd om ermee te stoppen of om het in het vervolg niet meer te doen. Leef je dit niet na, dan word je verbannen.
+
+Hoe lang de ban geldt (tijdelijk of permanent) hangt af van de overtreding en het aantal overtredingen dat je al hebt gemaakt.
+
+**Wij behouden het recht om je voor welke reden dan ook te verbannen.**
+
+## Algemene Regels
 
 ### Respect
 
@@ -37,8 +43,6 @@ Geen earrape, soundboards, of schreeuwen in voice-chat op zowel de Minecraft-ser
 
 ## Minecraft Regels
 
-Regels voor de Minecraft-server
-
 ### Grieffen en Stelen
 
 Grieffen (andermans gebouwen kapotmaken) en stelen is niet toegestaan. Zelfs iets “even lenen” zonder toestemming van een ander is niet oké.
@@ -61,11 +65,9 @@ Maak geen redstone- of andere constructies die expres lag veroorzaken. Redstone 
 
 ### Scams en Eerlijkheid
 
-dan geef je het netjes terug.
+Ruil eerlijk: wat je met elkaar afspreekt, gebeurt ook. Als iemand doodgaat en de loot ligt er nog, dan geef je het netjes terug.
 
 ## Discord Regels
-
-Regels voor de Discord-server
 
 ### Kanalen
 

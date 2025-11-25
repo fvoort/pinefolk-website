@@ -12,8 +12,11 @@
     <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | url }}">
   </head>
   <body>
-    <div class="wrapper">
-      {{ content }}
+    <div class="wrapper mc-inventory">
+      {% include 'header.liquid' %}
+      <div class="mc-inventory__body flow">
+        {{ content }}
+      </div>
     </div>
   </body>
 </html>

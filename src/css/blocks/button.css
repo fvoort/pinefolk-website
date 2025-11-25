@@ -4,13 +4,13 @@ button,
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  font-family: var(--font-contrast);
   line-height: var(--leading-flat);
-  color: var(--color-text-on-dark-primary);
+  color: var(--color-text-on-dark-primary) !important;
   background: var(--color-surface-action);
   text-shadow: 0.1em 0.1em var(--color-shadow-text);
   padding: 0.75em 1.5em;
-  border: 0.1em solid var(--color-outline-action-default);
+  border: var(--px) solid var(--color-outline-action-default);
+  min-width: fit-content;
 }
 
 button::before,
@@ -27,14 +27,14 @@ button::after,
 
 button::before,
 .button::before {
-  border-top: 0.1em solid var(--color-border-action-light);
-  border-left: 0.1em solid var(--color-border-action-light);
+  border-top: var(--px) solid var(--color-border-action-light);
+  border-left: var(--px) solid var(--color-border-action-light);
 }
 
 button::after,
 .button::after {
-  border-bottom: 0.2em solid var(--color-border-action-dark);
-  border-right: 0.1em solid var(--color-border-action-dark);
+  border-bottom: calc(var(--px) * 2) solid var(--color-border-action-dark);
+  border-right: var(--px) solid var(--color-border-action-dark);
 }
 
 button:hover,
@@ -44,5 +44,5 @@ button:hover,
 
 button:focus,
 .button:focus {
-  outline: 0.1em solid var(--color-outline-action-focus);
+  outline: var(--px) solid var(--color-outline-action-focus);
 }

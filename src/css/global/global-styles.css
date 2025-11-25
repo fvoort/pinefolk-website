@@ -5,9 +5,13 @@
   project: https://cube.fyi/css.html
 */
 body {
+  color: var(--color-text-subtle);
   background: url("/img/background.png") center top / 64px auto;
   font-family: var(--font-base);
   line-height: var(--leading-standard);
+  display: flex;
+  margin: 0;
+  padding: 1rem 0.5rem;
 }
 
 h1,
@@ -16,5 +20,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-contrast);
+  color: var(--color-text-primary);
+  line-height: var(--leading-flat);
+}
+
+strong {
+  color: var(--color-text-default);
+  font-weight: normal;
+}
+
+a,
+a:visited {
+  color: var(--color-green);
+  text-decoration-thickness: 0.1em;
+}
+
+a:hover {
+  text-decoration: none;
 }

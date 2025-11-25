@@ -19,6 +19,22 @@
       "name": "Text",
       "items": [
         {
+          "name": "Primary",
+          "value": "Black"
+        },
+        {
+          "name": "Default",
+          "value": "Grey 900"
+        },
+        {
+          "name": "Subtle",
+          "value": "Grey 800"
+        },
+        {
+          "name": "Link",
+          "value": "Green"
+        },
+        {
           "name": "On Dark",
           "items": [
             {

@@ -1,7 +1,9 @@
 import {IdAttributePlugin} from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPlugin(IdAttributePlugin);
+  eleventyConfig.addPlugin(IdAttributePlugin, {
+    selector: "h2,h3,h4,h5,h6"
+  });
 
   eleventyConfig.addPassthroughCopy({
     "src/fonts": "fonts",
