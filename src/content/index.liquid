@@ -4,8 +4,80 @@ description:
 layout: base.liquid
 ---
 <h2>Over Pinefolk</h2>
-<h3 id="mods-en-aanpassingen">Mods en aanpassingen</h3>
+
 <p>
-  Pinefolk is een vanilla Minecraft-survivalserver, maar gebruikt wel een paar mods en
-  aanpassingen om de ervaring te verbeteren.
+  Wij, Pim (@ShiverZ_) en Flip (@fvoort), zijn de Pinefolk SMP gestart omdat we iets
+  misten: dat gevoel van vroeger, toen je 13 was en op Minecraft inlogde, op elk moment
+  van de dag, en er altijd iemand was om mee te spelen of mee te praten. Volgens ons hoeft
+  die ervaring niet beperkt te blijven tot je jeugd. Ook nu, als volwassenen, kunnen we
+  datzelfde plezier en die verbondenheid ervaren. Minecraft is en blijft leuk, dus waarom
+  niet samen spelen zoals toen?
+  <br>
+  <br>
+  {{ description }}
 </p>
+
+<h3>Mods en data packs</h3>
+
+<p>
+  Wij noemen Pinefolk een vanilla Minecraft-server, maar dat is niet helemaal waar. We
+  hebben namelijk een aantal mods en data packs geïnstalleerd om de ervaring te
+  verbeteren. Zonder bepaalde mods kun je de server niet eens joinen.
+  <br>
+  <br>
+  <a href="{{ '/gids/minecraft-installatie' | url }}">
+    Welke mods je nodig hebt om de server te joinen en hoe je ze installeert, vind je hier
+  </a>
+</p>
+
+<figure class="full-bleed">
+  <table>
+    <caption>
+      Alle geïnstalleerde mods en data packs
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">Naam</th>
+        <th scope="col">Beschrijving</th>
+        <th scope="col">Soort</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign sorted_items = install | sort: 'type.mod', 'last' %}
+      {% for item in sorted_items %}
+        <tr id="{{ item.name | slugify }}">
+          <th scope="row">
+            <a href="{{ item.link }}">{{ item.name }}</a>
+          </th>
+          <td>{{ item.description }}</td>
+          <td style="white-space: nowrap;">{{ item.type }}</td>
+          <td>
+            {% assign sorted_envs = item.env | sort %}
+            {% for env in sorted_envs %}
+              {% if forloop.last %}
+                {{ env }}
+              {% else %}
+                {{- env -}}
+                ,
+              {% endif %}
+            {% endfor %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</figure>
+
+<p>
+  Niet getoond hier: We hebben ook een aantal mods die de performance van de server
+  verbeteren, de server beheren en misbruik voorkomen.
+</p>
+
+<h2>Veelgestelde vragen</h2>
+{% for question in faq %}
+  <details>
+    <summary>{{ question.question }}</summary>
+    {{ question.answer }}
+  </details>
+{% endfor %}

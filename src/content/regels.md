@@ -1,7 +1,7 @@
 ---
 title: Regels
 description:
-  "Op zowel de Minecraft-server als de Discord-server gelden een aantal regels om het voor iedereen leuk te houden.
+  "Op zowel de Minecraft- als de Discord-server gelden een aantal regels om het voor iedereen leuk te houden.
   <br><br>
   <strong>De TL;DR is dit: wees aardig tegen elkaar en als je wordt gevraagd om ergens mee te stoppen, doe dat dan ook.</strong>
   <br><br>
@@ -40,6 +40,10 @@ Vermijd floods, capslock-spam en herhaaldelijk dezelfde tekst sturen. Geen promo
 ### Voice-chat
 
 Geen earrape, soundboards, of schreeuwen in voice-chat op zowel de Minecraft-server als in de Discord-server.
+
+### Opnames en livestreams
+
+Het is toegestaan om opnames en livestreams te maken op de Pinefolk-server, maar houd wel rekening met anderen. Wanneer je met een ander speelt, laat dan weten dat je opnames maakt en/of live bent. Dit kun je bijvoorbeeld doen met de [Status mod]({{ '/#status' | url }}).
 
 ## Minecraft regels
 

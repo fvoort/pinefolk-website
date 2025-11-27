@@ -14,3 +14,28 @@
     --disabled: #efefef;
   }
 }
+
+@media only screen and (width < 720px) {
+  header nav a:hover,
+  header nav a.current,
+  header nav a[aria-current="page"],
+  header nav a[aria-current="true"] {
+    background: inherit;
+  }
+}
+
+figure > table {
+  width: 100%;
+}
+
+code {
+  font-size: 0.95em;
+}
+
+.full-bleed {
+  --width: 90vw;
+  position: relative;
+  width: var(--width);
+  left: 50%;
+  margin-inline-start: calc(-1 * (var(--width) / 2));
+}

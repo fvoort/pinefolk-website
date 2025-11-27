@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Simple Voice Chat",
+    "description": "Een werkende voice chat in Minecraft!",
+    "link": "https://modrinth.com/project/9eGKb6K1",
+    "type": "Mod",
+    "env": ["Client", "Server"]
+  },
+  {
+    "name": "Simple Voice Chat Enhanced Groups",
+    "description": "Een server-side mod die Simple Voice Chat groepen uitbreid met extra functies.",
+    "link": "https://modrinth.com/project/1LE7mid6",
+    "type": "Mod",
+    "env": ["Server"]
+  },
+  {
+    "name": "Status",
+    "description": "Laat aan anderen zien of je beschikbaar bent, wilt dat anderen slapen of niet en of je aan het opnemen of livestreamen bent. <a href='/regels/#opnames-en-livestreams'>Dit laatste is verplicht als je wilt opnemen of livestreamen op de Pinefolk-server.</a>",
+    "link": "https://modrinth.com/project/b93awgkg",
+    "type": "Mod",
+    "env": ["Client", "Server"]
+  },
+  {
+    "name": "Armor Poser",
+    "description": "Voegt een GUI toe voor armor stands waarin je de pose en andere eigenschappen kunt instellen. Je kunt ook de <a href='/#armor-statues'>Armor Statues data pack</a> gebruiken.",
+    "link": "https://modrinth.com/project/PFwYNrHb",
+    "type": "Mod",
+    "env": ["Client", "Server"]
+  },
+  {
+    "name": "Multiplayer Sleep",
+    "description": "Niet alle spelers in de overworld hoeven te slapen om de nacht en thunderstorms over te slaan.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Player Head Drops",
+    "description": "Een speler laat zijn head vallen wanneer hij gedood wordt door een andere speler. Het item toont wie de moordenaar is.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "More Mob Heads",
+    "description": "Voegt een kans toe om een mob head te ontvangen bij het doden ervan.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Wandering Trades",
+    "description": "Voegt Mini Blocks toe aan de trades van de Wandering Trader.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Storm Channeling",
+    "description": "Start een onweersbui door een Channeling trident omhoog te gooien vanaf de top van de wereld, waarbij 150 (60%) durability wordt verbruikt.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Anti Enderman Grief",
+    "description": "Voorkomt dat endermen blokken oppakken.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Armor Statues",
+    "description": "Voegt een uniek boek toe waarmee je de eigenschappen van armor stands kunt aanpassen in survival. Hernoem een boek naar 'Statues' om het te gebruiken. Je kunt ook de <a href='/#armor-poser'>Armor Poser-mod</a> gebruiken.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Durability Ping",
+    "description": "Krijg een melding wanneer je een item beschadigt met 10% of minder durability. Volledig aanpasbaar per speler met <code>/trigger duraPing</code>",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Coordinates HUD",
+    "description": "Voegt informatie toe aan je actionbar. Coördinaten en een 24-uurs klok. <code>/trigger ch_toggle</code> om in- en uit te schakelen.",
+    "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  }
+]

@@ -1,6 +1,6 @@
 ---
-title: Minecraft en Mods Installeren
-description: "Pinefolk is een vanilla server, maar gebruikt wel <a href='/#mods-en-aanpassingen'>een paar mods en aanpassingen</a> om de ervaring te verbeteren."
+title: Minecraft en mods installeren
+description: "Pinefolk is een vanilla server, maar gebruikt wel <a href='/#mods-en-data-packs'>een paar mods en aanpassingen</a> om de ervaring te verbeteren."
 layout: docs.liquid
 tags:
   - docs
@@ -24,7 +24,7 @@ tags:
 
 ### Minecraft Launcher
 
-1. Download en installeer de [Minecraft launcher](https://www.minecraft.net/nl-nl/download), als je dit nog niet hebt gedaan
+1. Download en installeer de [Minecraft Launcher](https://www.minecraft.net/nl-nl/download), als je dit nog niet hebt gedaan
 2. [Download en installeer Fabric loader](https://fabricmc.net/use)
    - Volg [Fabric's installatie-instructies](https://wiki.fabricmc.net/install)
    - Gebruik Minecraft-versie 1.21.10
