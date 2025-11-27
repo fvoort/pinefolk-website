@@ -11,6 +11,10 @@ export default function (eleventyConfig) {
     "src/img": "img",
     "src/downloads": "downloads"
   });
+
+  eleventyConfig.addCollection("docs", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/content/gids/*.md");
+  });
 }
 
 export const config = {

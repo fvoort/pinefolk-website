@@ -4,6 +4,10 @@
     "answer": "Een server hosten kost geld. Om dit te betalen vragen we een kleine maandelijkse bijdrage van onze spelers. Dit heeft een extra functie als filter: zo krijgen we serieuze en toegewijde spelers en minder trolls."
   },
   {
+    "question": "Hoe word ik lid en join ik de server?",
+    "answer": "Het server-ip is <code>play.pinefolk.net</code>. Je kunt de server joinen nadat je je hebt <a href='https://patreon.com/pinefolk'>geabonneerd op Patreon</a>. Vervolgens kun je de Discord-server joinen en jezelf toevoegen aan de whitelist van de Minecraft-server. <a href='/gids/lid-worden'>Meer informatie over lid worden</a>"
+  },
+  {
     "question": "Mag ik opnames maken en livestreamen?",
     "answer": "Ja, dat mag zeker! Houd je wel aan de <a href='regels/#opnames-en-livestreams'>regels voor opnames en livestreams</a> en laat anderen weten dat je opnames maakt en/of live bent."
   }

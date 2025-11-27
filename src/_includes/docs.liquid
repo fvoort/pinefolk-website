@@ -1,4 +1,23 @@
 ---
 layout: base.liquid
 ---
+<details open>
+  <summary style="margin-bottom: 0;">Gids</summary>
+  <nav>
+    <ul style="margin-block: 0 0.5rem;">
+      {% for item in collections.docs %}
+        <li>
+          <a
+            {% if page.url == item.url %}
+              aria-current="true"
+            {% endif %}
+            href="{{ item.url }}"
+          >
+            {{- item.data.title -}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</details>
 {{ content }}

@@ -32,6 +32,15 @@ code {
   font-size: 0.95em;
 }
 
+nav a[aria-current="true"] {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav li:has(a[aria-current="true"])::marker {
+  color: var(--accent);
+}
+
 .full-bleed {
   --width: 90vw;
   position: relative;
