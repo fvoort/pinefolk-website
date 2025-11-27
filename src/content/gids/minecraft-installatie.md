@@ -1,27 +1,26 @@
 ---
-title: Minecraft en mods installeren
+title: Minecraft en Mods Installeren
+description: "Pinefolk is een vanilla server, maar gebruikt wel <a href='/#mods-en-aanpassingen'>een paar mods en aanpassingen</a> om de ervaring te verbeteren."
 layout: docs.liquid
 tags:
   - docs
 ---
-
-Pinefolk SMP is een vanilla server, maar [gebruikt wel een paar mods en aanpassingen](/over/#installatie) om de ervaring te verbeteren. De makkelijkste en snelste manier om mee te doen is door de [Modrinth App](https://modrinth.com/app) te downloaden en de [Pinefolk SMP modpack](https://modrinth.com/modpack/pinefolk) te installeren.
 
 ## Installatie
 
 ### Modrinth
 
 1. Download en installeer de [Modrinth App](https://modrinth.com/app)
-2. Installeer de Pinefolk SMP modpack
+2. Installeer de Pinefolk modpack
 3. Klaar! Je bent klaar om te spelen
 
 ### Prism Launcher
 
 1. Download en installeer [Prism Launcher](https://prismlauncher.org/)
-2. [Download de Pinefolk SMP modpack]({{ '../../downloads/Pinefolk%20SMP%201.0.0.mrpack' | url }})
+2. [Download de Pinefolk modpack]({{ '../../downloads/Pinefolk%20SMP%201.0.0.mrpack' | url }})
 3. Open de Prism Launcher en ga naar 'Instantie toevoegen' > Importeren
 4. Importeer het modpack bestand dat je hebt gedownload
-5. Klaar! Je bent klaar om te spelen.
+5. Klaar! Je bent klaar om te spelen
 
 ### Minecraft Launcher
 
@@ -33,4 +32,4 @@ Pinefolk SMP is een vanilla server, maar [gebruikt wel een paar mods en aanpassi
 4. Ga in de Minecraft Launcher naar Installaties > de zojuist aangemaakte installatie > klik op het mappictogram om de installatiemap te openen
 5. [Download de mods voor de Pinefolk SMP]({{ '../../downloads/Pinefolk%20SMP%20mods%20v1.0.0.zip' | url }})
 6. Pak het gedownloade bestand uit en plaats de mods in de mods-map
-7. Klaar! Je bent klaar om te spelen.
+7. Klaar! Je bent klaar om te spelen

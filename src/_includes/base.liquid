@@ -1,22 +1,23 @@
+{% if title == blank %}
+  {% assign title = 'Pinefolk SMP' %}
+{% endif %}
+
 <!doctype html>
 <html lang="nl">
   <head>
     <title>
-      {% if title %}
-        {{ title }} -
-      {% endif %}
-      Pinefolk SMP
+      {{ title }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/simple.min.css' | url}}">
+    <link rel="stylesheet" href="{{ '/custom.css' | url}}">
     <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | url }}">
   </head>
   <body>
-    <div class="wrapper mc-inventory">
-      {% include 'header.liquid' %}
-      <div class="mc-inventory__body flow">
-        {{ content }}
-      </div>
-    </div>
+    {% include 'header.liquid' %}
+    <main>
+      {{ content }}
+    </main>
+    {% include 'footer.liquid' %}
   </body>
 </html>

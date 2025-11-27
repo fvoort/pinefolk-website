@@ -1,13 +1,38 @@
-<header class="site-head">
-  <div class="site-head__inner">
-    <nav class="site-head__nav">
-      <ul>
-        <li><a href="{{ "/" | url }}">Home</a></li>
-        <li><a href="{{ "/" | url }}">Over</a></li>
-        <li><a href="{{ "/regels" | url }}">Regels</a></li>
-        <li><a href="{{ "/gids/lid-worden" | url }}">Gids</a></li>
-      </ul>
-    </nav>
-    <a href="https://patreon.com/pinefolk" class="button">Word Lid</a>
-  </div>
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a
+          {% if page.url == '/' %}
+            aria-current="true"
+          {% endif %}
+          href="{{ "/" | url }}"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          {% if page.url == '/regels/' %}
+            aria-current="true"
+          {% endif %}
+          href="{{ "/regels" | url }}"
+          >Regels</a
+        >
+      </li>
+      <li>
+        <a
+          {% if page.url contains '/gids/' %}
+            aria-current="true"
+          {% endif %}
+          href="{{ "/gids/lid-worden" | url }}"
+          >Gids</a
+        >
+      </li>
+      <li><a href="https://patreon.com/pinefolk">Word Lid</a></li>
+    </ul>
+  </nav>
+  <h1>{{ title }}</h1>
+  {% unless description == blank %}
+    <p>{{ description }}</p>
+  {% endunless %}
 </header>

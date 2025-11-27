@@ -6,7 +6,8 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({
-    "src/simple.min.css": "simple.min.css",
+    "src/css/simple.min.css": "simple.min.css",
+    "src/css/custom.css": "custom.css",
     "src/img": "img",
     "src/downloads": "downloads"
   });

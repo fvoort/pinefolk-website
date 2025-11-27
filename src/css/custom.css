@@ -1,0 +1,16 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+    --bg: #fff;
+    --accent-bg: #f5f5f5;
+    --text: #212121;
+    --text-light: #585858;
+    --accent: #2a641c;
+    --accent-hover: #52a535;
+    --accent-text: var(--bg);
+    --code: #d812b4;
+    --preformatted: #444;
+    --marked: #ffd953;
+    --disabled: #efefef;
+  }
+}
