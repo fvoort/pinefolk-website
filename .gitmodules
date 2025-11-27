@@ -1,0 +1,3 @@
+[submodule "src/downloads/pinefolk-modpack"]
+	path = src/downloads/pinefolk-modpack
+	url = https://github.com/fvoort/pinefolk-modpack.git

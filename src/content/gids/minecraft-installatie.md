@@ -17,7 +17,7 @@ tags:
 ### Prism Launcher
 
 1. Download en installeer [Prism Launcher](https://prismlauncher.org/)
-2. [Download de Pinefolk modpack]({{ '../../downloads/Pinefolk%20SMP%201.0.0.mrpack' | url }})
+2. [Download de Pinefolk modpack]({{ '../../downloads/pinefolk-modpack/Pinefolk%20SMP.mrpack' | url }})
 3. Open de Prism Launcher en ga naar 'Instantie toevoegen' > Importeren
 4. Importeer het modpack bestand dat je hebt gedownload
 5. Klaar! Je bent klaar om te spelen
@@ -30,6 +30,6 @@ tags:
    - Gebruik Minecraft-versie 1.21.10
 3. Start de zojuist aangemaakte Minecraft-installatie en sluit Minecraft daarna weer af
 4. Ga in de Minecraft Launcher naar Installaties > de zojuist aangemaakte installatie > klik op het mappictogram om de installatiemap te openen
-5. [Download de mods voor de Pinefolk SMP]({{ '../../downloads/Pinefolk%20SMP%20mods%20v1.0.0.zip' | url }})
+5. [Download de mods voor de Pinefolk SMP]({{ '../../downloads/pinefolk-modpack/mods.zip' | url }})
 6. Pak het gedownloade bestand uit en plaats de mods in de mods-map
 7. Klaar! Je bent klaar om te spelen
