@@ -22,14 +22,21 @@
   },
   {
     "name": "Armor Poser",
-    "description": "Voegt een GUI toe voor armor stands waarin je de pose en andere eigenschappen kunt instellen. Je kunt ook de <a href='/#armor-statues'>Armor Statues data pack</a> gebruiken.",
+    "description": "Voegt een GUI toe voor Armor Stands waarin je de pose en andere eigenschappen kunt instellen. Je kunt ook de <a href='/#armor-statues'>Armor Statues data pack</a> gebruiken.",
     "link": "https://modrinth.com/project/PFwYNrHb",
     "type": "Mod",
     "env": ["Client", "Server"]
   },
   {
+    "name": "AudioPlayer",
+    "description": "Zet je eigen audiobestanden op Music Discs, Goat Horns, en Note Blocks. <code>/audioplayer</code> voor informatie over het uploaden van bestanden.",
+    "link": "https://modrinth.com/project/SRlzjEBS",
+    "type": "Mod",
+    "env": ["Server"]
+  },
+  {
     "name": "Multiplayer Sleep",
-    "description": "Niet alle spelers in de overworld hoeven te slapen om de nacht en thunderstorms over te slaan.",
+    "description": "Niet alle spelers in de Overworld hoeven te slapen om de nacht en thunderstorms over te slaan.",
     "link": "https://vanillatweaks.net/",
     "type": "Data pack",
     "env": ["Server"]
@@ -57,7 +64,7 @@
   },
   {
     "name": "Storm Channeling",
-    "description": "Start een onweersbui door een Channeling trident omhoog te gooien vanaf de top van de wereld, waarbij 150 (60%) durability wordt verbruikt.",
+    "description": "Start een thunderstorm door een Channeling Trident omhoog te gooien vanaf de top van de wereld, waarbij 150 (60%) durability wordt verbruikt.",
     "link": "https://vanillatweaks.net/",
     "type": "Data pack",
     "env": ["Server"]
@@ -71,7 +78,7 @@
   },
   {
     "name": "Armor Statues",
-    "description": "Voegt een uniek boek toe waarmee je de eigenschappen van armor stands kunt aanpassen in survival. Hernoem een boek naar 'Statues' om het te gebruiken. Je kunt ook de <a href='/#armor-poser'>Armor Poser-mod</a> gebruiken.",
+    "description": "Voegt een uniek boek toe waarmee je de eigenschappen van Armor Stands kunt aanpassen in Survival. Hernoem een boek naar 'Statues' om het te gebruiken. Je kunt ook de <a href='/#armor-poser'>Armor Poser-mod</a> gebruiken.",
     "link": "https://vanillatweaks.net/",
     "type": "Data pack",
     "env": ["Server"]
