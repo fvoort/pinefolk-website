@@ -8,6 +8,8 @@ tags:
 
 ## Installatie
 
+Om de Pinefolk SMP te joinen moet je eerst een aantal mods downloaden. De makkelijkste manier is door Modrinth te gebruiken. Voor Modrinth en andere launchers vind je hieronder een gids om de modpack te installeren.
+
 ### Modrinth
 
 1. Download en installeer de [Modrinth App](https://modrinth.com/app)
