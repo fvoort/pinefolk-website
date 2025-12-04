@@ -70,6 +70,13 @@
     "env": ["Server"]
   },
   {
+    "name": "Arrested Development",
+    "description": "Houd mobs als baby voor altijd. Hernoem een jonge mob 'baby' met een name tag. Daarna kun je de mob een andere naam geven en zal zijn leeftijd constant gereset worden om te voorkomen dat hij volwassen wordt.",
+    "link": "https://modrinth.com/project/og1iF8P2",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
     "name": "Wandering Trades",
     "description": "Voegt Mini Blocks toe aan de trades van de Wandering Trader.",
     "link": "https://vanillatweaks.net/",
