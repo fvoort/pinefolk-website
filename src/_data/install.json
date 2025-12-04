@@ -21,6 +21,13 @@
     "env": ["Client", "Server"]
   },
   {
+    "name": "Coord Finder",
+    "description": "Deel coördinaten van spelers en plaatsen. <code>/coords</code>",
+    "link": "https://modrinth.com/project/kPkTtp4N",
+    "type": "Mod",
+    "env": ["Server"]
+  },
+  {
     "name": "Armor Poser",
     "description": "Voegt een GUI toe voor Armor Stands waarin je de pose en andere eigenschappen kunt instellen. Je kunt ook de <a href='/#armor-statues'>Armor Statues data pack</a> gebruiken.",
     "link": "https://modrinth.com/project/PFwYNrHb",
@@ -80,6 +87,13 @@
     "name": "Armor Statues",
     "description": "Voegt een uniek boek toe waarmee je de eigenschappen van Armor Stands kunt aanpassen in Survival. Hernoem een boek naar 'Statues' om het te gebruiken. Je kunt ook de <a href='/#armor-poser'>Armor Poser-mod</a> gebruiken.",
     "link": "https://vanillatweaks.net/",
+    "type": "Data pack",
+    "env": ["Server"]
+  },
+  {
+    "name": "Ice Prevents Crop Growth",
+    "description": "Crops die groeien met ijs eronder blijven in hetzelfde stadium, voor ontwerpdoeleinden.",
+    "link": "https://modrinth.com/project/6rPhicfw",
     "type": "Data pack",
     "env": ["Server"]
   },
