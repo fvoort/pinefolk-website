@@ -42,6 +42,13 @@
     "env": ["Server"]
   },
   {
+    "name": "No Crop Trample",
+    "description": "Schakelt het vertrappen van crops uit.",
+    "link": "https://modrinth.com/project/TEL2rIgj",
+    "type": "Mod",
+    "env": ["Server"]
+  },
+  {
     "name": "Multiplayer Sleep",
     "description": "Niet alle spelers in de Overworld hoeven te slapen om de nacht en thunderstorms over te slaan.",
     "link": "https://vanillatweaks.net/",
